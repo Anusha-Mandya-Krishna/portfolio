@@ -1,0 +1,31 @@
+.theme-toggle {
+  /* background: #a9a7a7; */
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0.65rem;
+  border-radius: 50%;
+  transition: background 0.3s ease;
+  margin: 0 0.5rem 0 1rem;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.theme-toggle .icon {
+  font-size: 1.25rem;
+  height: 1.25rem;
+  width: 1.25rem;
+  transition: color 0.3s ease;
+}
+
+.theme-toggle .sun {
+  color: #fdd835; /* Yellow for light mode */
+}
+
+.theme-toggle .moon {
+  color: #1e293b; /* Dark blue for dark mode */
+}
+
+.theme-toggle:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
