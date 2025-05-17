@@ -201,7 +201,7 @@ export default function Welcome() {
 function HomeAboutSection() {
   const sectionRef = useAutoVhHeight();
   const handleDownload = async () => {
-    const pdfUrl = `https://anusha-mandya-krishna.github.io/portfolio/Anusha_Resume.pdf`;
+    const pdfUrl = `https://anusha-mandya-krishna.github.io/portfolio/Anusha_M_K_Resume.pdf`;
     
     const link = document.createElement("a");
     link.href = pdfUrl;
@@ -278,7 +278,7 @@ function HomeAboutSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7 }}
             >
-              Enthusiastic MSc Software Development graduate with 3+ years of
+              Enthusiastic MSc Software Development graduate with 2+ years of
               experience in designing and delivering scalable, high-performance
               software solutions. Proficient in Golang and cloud-native
               architectures, with expertise in building distributed,
@@ -294,7 +294,7 @@ function HomeAboutSection() {
               >
                 <h3>Experience</h3>
                 <p>
-                  3+ years of hands-on experience building scalable, distributed backend systems using Golang, Java, cloud-native technologies.
+                  2+ years of hands-on experience building scalable, distributed backend systems using Golang, Java, cloud-native technologies.
                 </p>
               </motion.div>
               <motion.div
@@ -339,7 +339,7 @@ function ExperienceContent() {
           >
             <div className="text-left">
               <h3>Software Developer - Edu-Easy</h3>
-              <p>Sep 2023 - Feb 2025</p>
+              <p>Sep 2024 - Mar 2025</p>
               <p className="description">
                 Developed and maintained high-performance, distributed backend
                 services using Golang.
